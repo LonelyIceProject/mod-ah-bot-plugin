@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "id": "mod-ah-bot",
+  "version": "1.0.0",
+  "name": { "en": "Auction House Bot", "ru": "Бот аукциона" },
+  "description": {
+    "en": "Fills the auction houses with items and buys the auctions of players.",
+    "ru": "Наполняет аукционы товарами и выкупает лоты игроков."
+  },
+  "authors": [ "AzerothCore" ],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/azerothcore/mod-ah-bot",
+  "source": {
+    "repo": "https://github.com/azerothcore/mod-ah-bot.git",
+    "commit": "c11d8318cbd8714a9980f9464f78e07d3d48a70a"
+  },
+  "core": { "abi": "lonelyice-ac-2" },
+  "platforms": [ "windows-x64" ],
+  "server": { "library": "mod_ah_bot" },
+  "databases": { "world": "data/sql/db-world" },
+  "config": "conf/mod_ahbot.conf.dist"
+}
