@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="128" alt="logo"></p>
+
 # mod-ah-bot plugin
 
 Builds [azerothcore/mod-ah-bot](https://github.com/azerothcore/mod-ah-bot) as a plugin for
