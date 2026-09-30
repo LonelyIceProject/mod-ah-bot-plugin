@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-ah-bot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": { "en": "Auction House Bot", "ru": "Бот аукциона" },
   "description": {
     "en": "Fills the auction houses with items and buys the auctions of players.",
@@ -19,5 +19,6 @@
   "platforms": [ "windows-x64" ],
   "server": { "library": "mod_ah_bot" },
   "databases": { "world": "data/sql/db-world" },
-  "config": "conf/mod_ahbot.conf.dist"
+  "config": "conf/mod_ahbot.conf.dist",
+  "settings": "settings.json"
 }
