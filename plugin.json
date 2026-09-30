@@ -1,7 +1,7 @@
 {
   "format": 1,
   "id": "mod-ah-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": { "en": "Auction House Bot", "ru": "Бот аукциона" },
   "description": {
     "en": "Fills the auction houses with items and buys the auctions of players.",
@@ -10,6 +10,7 @@
   "authors": [ "AzerothCore" ],
   "license": "GPL-2.0-or-later",
   "homepage": "https://github.com/azerothcore/mod-ah-bot",
+  "locales": [ "en" ],
   "source": {
     "repo": "https://github.com/azerothcore/mod-ah-bot.git",
     "commit": "c11d8318cbd8714a9980f9464f78e07d3d48a70a"
